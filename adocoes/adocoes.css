@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFCDBA;
+}
+
+/*NAV BAR */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+nav img {
+    width: 60px;
+    height: auto;
+}
+
+/*NAV BAR */
+
+header {
+    padding: 30px;
+    gap: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.disponiveis {
+    padding: 30px;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+/*header*/
+
+
+.dupla_cards {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 60px;
+}
+.dupla_cards a{
+text-decoration: none;
+color: black;
+}
+
+
+/*CARD 1*/
+.card1 {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card1 .infos {
+    padding: 0px 20px 20px;
+}
+
+.card1 img {
+    height: 300px;
+    width: auto;
+    display: block;
+    padding: 20px;
+}
+
+/*CARD 1*/
+
+/*CARD 2*/
+.card2 {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card2 .infos {
+    padding: 0px 20px 20px;
+}
+
+.card2 img {
+    height: 300px;
+    width: auto;
+    display: block;
+    padding: 20px;
+}
+
+/*CARD 2*/
