@@ -69,42 +69,22 @@ color: black;
 }
 
 
-/*CARD 1*/
-.card1 {
+/*CARD*/
+.card {
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
 }
 
-.card1 .infos {
+.card .infos {
     padding: 0px 20px 20px;
 }
 
-.card1 img {
+.card img {
     height: 300px;
     width: auto;
     display: block;
     padding: 20px;
 }
 
-/*CARD 1*/
-
-/*CARD 2*/
-.card2 {
-    background-color: white;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.card2 .infos {
-    padding: 0px 20px 20px;
-}
-
-.card2 img {
-    height: 300px;
-    width: auto;
-    display: block;
-    padding: 20px;
-}
-
-/*CARD 2*/
+/*CARD*/
