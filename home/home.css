@@ -13,13 +13,21 @@ nav {
     display: flex;
     justify-content: center;
     background-color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     padding: 10px;
+  
 }
 
 nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+     transition: 0.3s;
 }
 
 nav ul {
@@ -34,14 +42,22 @@ nav img {
     height: auto;
 }
 
+nav a:hover{
+    color:#FC7847;
+    transition: 0.2s;
+}
+
 /*NAV BAR */
 
 .principal {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
     gap: 150px;
+    padding-top: 100px;
+    /* padding-bottom: 200px; */
+
+    
 }
 
 .principal .apresentacao {
@@ -76,4 +92,42 @@ nav img {
     font-size: 20px;
     font-weight: bold;
     color: white;
+    transition: 0.3s;
 }
+
+.principal .botao-link:hover{
+    background-color: #c73602;
+    transition: 0.3s;
+}
+
+/*
+footer {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 60px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 1000;
+
+}
+footer img{
+    width: 20px;
+    height: auto;
+}
+footer .redes{
+    display: flex;
+    gap: 20px;
+}
+footer .redes .redes-link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+*/
