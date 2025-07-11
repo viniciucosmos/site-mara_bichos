@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFCDBA;
+}
+h1{
+    text-align: center;
+    padding: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card a {
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.cards .infos{
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+font-size: 25px;
+gap: 10px;
+}
